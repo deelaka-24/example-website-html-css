@@ -2,6 +2,10 @@
 
 a {text-decoration: none;}
 
+p{margin-top: 10px; margin-bottom: 15px; font-size: 18px;color: #444;}
+
+a{color: maroon;}
+
 .clearfix{overflow: auto}
 
 .wrapper{
@@ -129,6 +133,7 @@ nav ul li a:hover{
 div .intro{
     width: 970px;
     margin: 15px;
+    margin-bottom: 0;
 }
 
 div.intro div.intro-image{
@@ -154,6 +159,65 @@ div.intro-text{
 
 div.intro-text a{
     text-transform: uppercase;
-    color: red;
     float: right;
+}
+
+div.home-content{
+    width: 1000px;
+    background-color: #eee;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+div.home-col{
+    margin-left: 15px; 
+    width: 313px;
+    height: 500px;
+    float: left;
+}
+
+div.home-col img{
+    width: 313.33px;
+}
+
+div.home-col h2{
+    margin: 30px 0px 30px 0px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+div.home-col a{
+    float: right;
+}
+
+div.services{
+    margin-bottom: 20px;
+}
+
+div.services img{
+    margin-right: 15px;
+    width: 64px;
+    float: left;
+}
+
+div.services p{
+    margin-top: 0;
+}
+
+div.quote {
+    float: left;
+}
+
+div.quote i{
+    float: left;
+}
+
+div.quote h3{
+    margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+}
+
+div.quote p{
+    clear: both;
 }
