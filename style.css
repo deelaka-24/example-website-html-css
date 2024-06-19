@@ -58,3 +58,44 @@ a {text-decoration: none;}
     border: none;
     float: right;
 }
+
+header .logo{
+    margin-top: 30px; 
+    margin-left: 20px; 
+    float: left;
+    }
+
+header .logo h1{
+    font-variant: small-caps;
+    font-size: 48px;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+
+header .social-media{ 
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+header .social-media ul{ 
+    list-style: none; 
+}
+
+header .social-media ul li{ 
+    display: inline-block; 
+}
+
+header .social-media ul li a{
+    margin-left: 5px;
+    padding: 6px;
+    background: #444;
+    color: #fff;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+header .social-media ul li a:hover{
+    cursor: pointer;
+    background: orange;
+}
