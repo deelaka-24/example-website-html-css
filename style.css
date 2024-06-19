@@ -99,3 +99,29 @@ header .social-media ul li a:hover{
     cursor: pointer;
     background: orange;
 }
+
+nav{
+    margin-top: 20px;
+    background: #000; 
+    background: linear-gradient(#1a1a1a, #262626, #1a1a1a);
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav ul li{ 
+    list-style: none; 
+    display: inline-block;
+}
+
+nav ul li a{
+    margin: 10px 40px 10px 40px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    color: maroon;
+}
