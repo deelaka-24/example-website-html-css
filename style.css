@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{margin: 0;padding: 0;}
 
 a {text-decoration: none;}
@@ -220,4 +222,109 @@ div.quote h3{
 
 div.quote p{
     clear: both;
+}
+
+
+footer{
+    width: 1000px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+div.footer-col{
+    width: 231.25px;
+    float: left;
+    margin-left: 10px;
+    border-top: 1px solid black; 
+}
+
+div.footer-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: #444;
+}
+
+div.tweet p{
+    font-size: 16px;
+}
+
+div.footer-col ul.quick-links{
+    margin-top: 10px;
+    list-style: none;
+}
+
+ul.quick-links li a{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: block;
+    border-bottom: 1px solid black;
+    color: #666;
+}
+
+ul.quick-links li a::before{
+    content:  " » ";
+}
+
+ul.quick-links li a:hover{
+    color: maroon;
+}
+
+div.blog-post h5{
+    font-size: 20px;
+}
+
+div.blog-post p{
+    font-size: 16px;
+}
+
+div.blog-post a.readmore{
+    float: right;
+}
+
+div.blog-post{
+    clear: both;
+}
+
+form.contact input,form.contact textarea{
+    background: #eee;
+    padding: 5px;
+    margin: 5px;
+    width: 231.25;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+form.contact textarea{
+    height: 130px;
+}
+
+form.contact button{
+    background: #eee;
+    color: maroon;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+div.copyrights{
+    width: 1000px;
+    background:#eee;
+    float: left;
+}
+
+div.left{
+    float: left;
+    margin: 20px;
+}
+
+div.right{
+    float: right;
+    margin: 20px;
 }
